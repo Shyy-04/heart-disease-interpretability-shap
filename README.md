@@ -7,7 +7,9 @@ Heart disease remains a leading cause of global mortality. This study evaluates 
 
 ### 🔑 Key Findings
 *   **Top Model**: XGBoost achieved the highest performance with a **ROC-AUC of 0.95**.
+![correlation_heatmap](correlation heatmap.png)
 *   **Predictive Features**: SHAP (SHapley Additive exPlanations) and Gini importance identified **chest pain type (cp)**, **maximum heart rate (thalach)**, and **number of major vessels (ca)** as the most critical predictors.
+![SHAP Plot](shap_summary_plot.png)
 *   **Clinical Goal**: Developing transparent decision-support tools for cardiovascular care.
 
 ## 🛠️ Methodology
